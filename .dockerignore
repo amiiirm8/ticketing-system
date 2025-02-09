@@ -1,0 +1,32 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE/editor files
+*.vscode/
+*.idea/
+*.DS_Store
+
+# Ignore logs and temporary files
+*.log
+tmp/
+*.swp
+
+# Ignore environment variables and secrets
+.env
+.env.local
+*.pem
+
+# Ignore static and media files (if they are managed outside the container)
+staticfiles/
+media/
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
